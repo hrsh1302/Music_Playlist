@@ -1,0 +1,3 @@
+C:/Users/banga/CLionProjects/C++ II/Lesson 14 - Sets/Music_Playlist/cmake-build-debug/CMakeFiles/Music_Playlist.dir
+C:/Users/banga/CLionProjects/C++ II/Lesson 14 - Sets/Music_Playlist/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/banga/CLionProjects/C++ II/Lesson 14 - Sets/Music_Playlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir

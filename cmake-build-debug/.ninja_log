@@ -1,0 +1,5 @@
+# ninja log v5
+1147	1360	7248184470124743	setGroup.exe	bf2de5532c62ba6f
+30	895	7248189315419801	CMakeFiles/Music_Playlist.dir/Song.cpp.obj	985c86a86ccc4f55
+0	1226	7248189318732474	CMakeFiles/Music_Playlist.dir/main.cpp.obj	5b0c22a5b4691f09
+1227	1514	7248189321539951	Music_Playlist.exe	1e84f1a56b40aed7
