@@ -1,5 +1,6 @@
 #ifndef SETGROUP_SONG_H
 #define SETGROUP_SONG_H
+
 #include <string>
 
 using namespace std;
@@ -25,6 +26,8 @@ public:
     void setGenre(const string &genre);
 
     bool operator<(const Song &rhs) const;
+
+    void print() const;
 };
 
 

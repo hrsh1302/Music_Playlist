@@ -1,4 +1,4 @@
-
+#include <iostream>
 #include "Song.h"
 
 using namespace std;
@@ -27,4 +27,8 @@ bool Song::operator<(const Song &rhs) const {
         return artist < rhs.artist;
     }
     return genre < rhs.genre;
+}
+
+void Song::print() const {
+    cout << title << "," << artist << "," << genre << endl;
 }

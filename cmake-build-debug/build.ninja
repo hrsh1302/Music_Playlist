@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/banga/CLionProjects/C++$ II/Lesson$ 14$ -$ Sets/
 
 build cmake_object_order_depends_target_Music_Playlist: phony || CMakeFiles/Music_Playlist.dir
 
-build CMakeFiles/Music_Playlist.dir/main.cpp.obj: CXX_COMPILER__Music_Playlist_unscanned_Debug C$:/Users/banga/CLionProjects/C++$ II/Lesson$ 14$ -$ Sets/Music_Playlist/main.cpp || cmake_object_order_depends_target_Music_Playlist
-  DEP_FILE = CMakeFiles\Music_Playlist.dir\main.cpp.obj.d
+build CMakeFiles/Music_Playlist.dir/playlist-maker.cpp.obj: CXX_COMPILER__Music_Playlist_unscanned_Debug C$:/Users/banga/CLionProjects/C++$ II/Lesson$ 14$ -$ Sets/Music_Playlist/playlist-maker.cpp || cmake_object_order_depends_target_Music_Playlist
+  DEP_FILE = CMakeFiles\Music_Playlist.dir\playlist-maker.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Music_Playlist.dir
   OBJECT_FILE_DIR = CMakeFiles\Music_Playlist.dir
@@ -69,7 +69,7 @@ build CMakeFiles/Music_Playlist.dir/Song.cpp.obj: CXX_COMPILER__Music_Playlist_u
 #############################################
 # Link the executable Music_Playlist.exe
 
-build Music_Playlist.exe: CXX_EXECUTABLE_LINKER__Music_Playlist_Debug CMakeFiles/Music_Playlist.dir/main.cpp.obj CMakeFiles/Music_Playlist.dir/Song.cpp.obj
+build Music_Playlist.exe: CXX_EXECUTABLE_LINKER__Music_Playlist_Debug CMakeFiles/Music_Playlist.dir/playlist-maker.cpp.obj CMakeFiles/Music_Playlist.dir/Song.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Music_Playlist.dir
