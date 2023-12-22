@@ -1,21 +1,62 @@
-This program plays with a playlist.txt file that stores all the music in the following format:
-	songTitle, songArtist, songGenre
+# Playlist Maker Program
 
-At first this program only sorts the .txt file and outputs all its songs into genre dedicated playlists. 
-Program uses sets for each music genre. It reads the file, then stores line by line into which genre a song goes. Ideas to enhance program:
+A C++ program that serves as a Playlist Maker, allowing users to manage a music playlist by performing operations such as adding, looking up, removing, and displaying songs based on genre.
 
-Create a real program, with user input that lets him have options
-	- 1) Add data
-		Enter song title:
-		Enter song artist:
-		Enter genre (Pop, Dance, Hip-Hop, Country, R&B, Rock):
-		 Check if data entered is already here
-		 Output: Entry was added! => songTitle, songArtist, songGenre
+## Introduction
 
-	- 2) Remove data (At once, only enter the songTitle)
-		Enter song name:
-		 Check if it's in the .txt
-		 Output: Entry removed!
+This program provides a simple and interactive interface for managing a music playlist. Users can add new songs to the playlist, look up existing songs, remove songs, and display playlists based on different genres. The program utilizes file I/O to store and retrieve the playlist data.
 
-	- 3) Print out genre playlists
-		(Pop [1], Dance [2], Hip-Hop [3], Country [4], R&B [5], Rock [6], or All [7])
+## Features
+
+- Add Song: Users can add a new song to the playlist by providing details such as title, artist, and genre.
+
+- Look for Song: Users can search for a specific song in the playlist by entering the song's title.
+
+- Remove Song: Users can remove a song from the playlist by specifying the title of the song they want to delete.
+
+- Display Playlist: Users can view playlists based on different genres (Pop, Dance, Hip Hop, Country, R&B, Rock) or display the entire playlist.
+
+## Getting started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/playlist-maker.git
+cd playlist-maker
+```
+
+Compile the program:
+
+```bash
+g++ -o playlist_maker playlist_maker.cpp Song.cpp
+```
+
+Run the executable:
+
+```bash
+Copy code
+./playlist_maker
+```
+
+## Usage
+
+Upon running the program, a menu will be displayed with options to add, look up, remove, or display songs.
+
+Follow the prompts to perform the desired operation.
+
+To exit the program, select option -1.
+
+## File Structure
+
+playlist_maker.cpp: The main source code file containing the Playlist Maker program logic.
+Song.cpp: Definition of the Song class used to represent individual songs.
+Song.h: Header file for the Song class.
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## Licence
+
+[MIT](https://github.com/hrsh1302/Music_Playlist/blob/master/LICENSE)
+
